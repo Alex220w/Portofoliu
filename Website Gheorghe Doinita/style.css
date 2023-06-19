@@ -1,0 +1,143 @@
+.navbar {
+  background-color: rgb(235, 170, 235);
+}
+
+.navbar li {
+  font-weight: 550;
+  font-size: 20px;
+}
+.navbar a:hover {
+  color: fuchsia;
+}
+
+.logo img {
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 1px #000;
+}
+
+.main1 {
+  border-radius: 40px;
+  height: 1000px;
+  background-image: url("poza 3000px.jpg");
+  box-shadow: 1px 1px 100px 1px black;
+  margin: 1% 1% 1% 1%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 800px) {
+  .main1 {
+    height: 600px;
+
+    background-image: url("poza 3000px.jpg");
+    box-shadow: 1px 1px 60px 1px #000;
+    margin: 1% 1% 1% 1%;
+  }
+  @media (max-width: 550px) {
+    .main1 {
+      height: 400px;
+
+      background-image: url("poza 3000px.jpg");
+      box-shadow: 1px 1px 60px 1px #000;
+      margin: 1% 1% 1% 1%;
+    }
+  }
+}
+.dropdown-menu a {
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.contact li {
+  list-style-type: none;
+}
+.contact a:link {
+  text-decoration: none;
+  color: black;
+}
+.contact a:hover {
+  text-decoration-line: underline;
+
+  color: fuchsia;
+}
+.contact {
+  background-color: darkgray;
+  padding: 2% 0% 0% 2%;
+}
+@media (min-width: 663) {
+  .contact {
+    height: 600px;
+  }
+}
+
+.back {
+  background-image: url(Background-pensula.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.back h1 {
+  color: aliceblue;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.footer-meniu {
+  font-size: large;
+  font-weight: 550;
+}
+footer li {
+  list-style-type: none;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: fuchsia;
+}
+
+.about-main {
+  background-image: url("Makeup\ model.jpg");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.content-about {
+  background-color: #000;
+  color: #fff;
+  margin-left: 7%;
+  margin-top: 155px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 60px 1px #000;
+  opacity: 0.8;
+}
+
+@media (max-width: 1100px) {
+  .about-main {
+    height: 1120px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 576px) {
+  .content-about {
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  .about-main {
+    height: 1400px;
+    background-size: cover;
+  }
+}
