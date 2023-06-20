@@ -45,7 +45,7 @@
 /* section 1*/
 
 .vila {
-  background-image: url("/mt-1325-home-header-bg.jpg");
+  background-image: url("mt-1325-home-header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -76,7 +76,7 @@ ul p {
 }
 
 .padding {
-  background-image: url(/screen2.png);
+  background-image: url(screen2.png);
   margin-top: 35%;
   background-repeat: no-repeat;
   min-height: 600px;
